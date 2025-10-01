@@ -23,3 +23,4 @@ products
 | 2         | Table       | Furniture | 200   |
 | 3         | Lamp        | Lighting  | 50    |
 
+### Convert (timestamp) string date format into AEST Date format eg. YYYYMMDD

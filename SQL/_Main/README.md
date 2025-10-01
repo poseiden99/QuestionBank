@@ -22,5 +22,9 @@
 ### Explain the difference between WHERE and HAVING clauses.
 ### What is indexing? Explain clustered vs non-clustered indexes.
 ### how we can do pivoting and unpivoting in Databricks SQL
+### how you will restore the table which is loaded on previous day if current day data is wrong
+### what are usecases of windows functions, elaborate with your realtime project example
+### what are constraints
+### How will you list the employees which are not assigned any dept if you have 2 tables (employee and department)
 
 
