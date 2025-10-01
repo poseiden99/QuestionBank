@@ -1,5 +1,5 @@
 
-### What is SCD and explain SCD Type 2
+### What is SCD and explain SCD Types
 
 Answer:
 
@@ -7,12 +7,11 @@ Answer:
 
 Answer:
 
+### Explain recent ETL Pipeline you worked on from start to end deliverable?
 
-### How would you design an ETL Pipeline to handle late-arriving dimensions or facts?
+Answer: Understand the process, tools, they have used, see if candidate is having genuine knowledge of process
 
-Answer:
-
-### What is materialized views, when do you use it and how it helps in performance?
+### Types of view in databricks and its usecases?
 
 Answer:
 
@@ -28,8 +27,4 @@ Answer:
 
 Answer:
 
-
-### Data Governence?
-
-Answer:
 

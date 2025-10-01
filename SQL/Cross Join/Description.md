@@ -1,3 +1,7 @@
+### get me dishes along with the drinks available if person is Vegetarian
+--dont give outputs right away let them ask questions like could you please explain this 
+-- we need to understand if candidate is understanding the requirement or just saying yes to everything
+
 | main_dish_id  | dish_name        | is_veg         |
 | -------------- | --------------- | -------------- |
 | 1              | Grilled Chicken | false          |

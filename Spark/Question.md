@@ -1,8 +1,18 @@
-### suppose 2 wide transformation and one action and handling 2 GB data. How many stages and task/Partitions will get created?
+### suppose 2 wide transformation, 2 narrow transformation and 2 action are their. How many stages and task/Partitions will get created?
  
-Answer:
-2 wide transformation 3 stages + 1 action means 1 job +  2 GB of data default size 120 MB i.e. 16 partitions or tasks
+Answer: 2 wide = 2 stage, 2 action = twice, 1 initial stage for each, so total 3x2=6 stages
 
+### difference between the broadcast variable and cache variable, in which scenario we use them, any limitations?
+
+Answer:
+
+### suppose you have 1 job it contains 5 notebooks, broadcast variable and cache variable created in Notebook 1, can we use them in rest of notebooks, if yes why, if No why..?
+
+Answer:
+
+### suppose 2 GB of file is handled by one job which takes 30 min suddenly it start taking 1-2hr, even though query is optimised. what are steps you would take to debug that, and how you will correct the issue, walk me through it.
+
+Answer:
 
 ### What is the difference between repartition() and coalesce() in PySpark? When would you use each?
 
@@ -12,21 +22,7 @@ Answer:
 
 Answer:
 
-
 ### How does the Catalyst optimizer work in Spark SQL? What kinds of optimizations does it perform?
-
-Answer:
-
-
-### What are broadcast joins in PySpark, and when are they recommended? What are the limits?
-
-Answer:
-
-### How does Spark handle data skew, and what are techniques to mitigate it in joins or aggregations?
-
-Answer:
-
-### Explain how checkpointing differs from caching or persisting. When would you use checkpointing?
 
 Answer:
 
@@ -40,13 +36,6 @@ Answer:
 Answer:
 
 
-11. You have a huge dataset with skewed keys causing stage failures. How do you redesign your PySpark job to handle skew?
-12. How would you write a custom partitioner in PySpark, and why might you need one?
-13. You observe shuffle spill to disk during a join. What are the root causes and possible fixes?
-14. In a real-time streaming pipeline using Structured Streaming, how would you handle late-arriving data?
-15. How do watermarking and windowing work together in Structured Streaming? Give an example.
-16. How can you use explode() and posexplode() in PySpark to flatten nested JSON data?
-17. What are the trade-offs of using DataFrame API vs RDD API in a large ETL pipeline?
-18. Explain how Spark handles fault tolerance. What happens if an executor fails during a job?
-19. You're dealing with a dataset of 100 TB. What configuration and design strategies would you apply to run efficiently on Spark?
-20. How would you implement Slowly Changing Dimension Type 2 (SCD Type 2) in PySpark?
+### How can you use explode() and posexplode() in PySpark to flatten nested JSON data?
+### How would you implement Slowly Changing Dimension Type 2 (SCD Type 2) in PySpark?
+### Suppose we want to process 100 GB of data. Tell me the Spark configuration you would use in order to get it processed without any issue. Number of executor nodes, total memory, executor memory, number of executor cores. - Same but different question, suppose there is upstream system.

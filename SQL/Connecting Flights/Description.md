@@ -1,6 +1,6 @@
 #### Table having list of flights. Let's suppose one wants to travel from Banglore to Ahmedabad by taking minimum direct/connecting flights. Write a query get those flight numbers in order.
 
-### <u>flights</u>
+flights
 
 | flight     | source     | destination |
 |:----------:|:----------:|:-----------:|
@@ -14,9 +14,14 @@
 
 
 Travel - Banglore ==> Ahmedabad
-### <u>Expected Output</u>
+
+Expected Output
 | flight   |
 |:--------:|
 | AIR 0369 |
 | AIR 0087 |
 | AIR 0029 |
+
+
+Answer :
+use 2 self joins one each on another with source and destination put filter banglore and ahmedabad

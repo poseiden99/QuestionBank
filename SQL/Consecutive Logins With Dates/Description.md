@@ -5,10 +5,10 @@
 
 | user_id   |       name       |       email                     |
 |:---------:|:----------------:|:-------------------------------:|
-|     1     | Aarti Sharma     | aarti.sharma@code.code          |
+|     1     | Namrata Deokate  | Namrata.sharma@code.code          |
 |     2     | Nilesh Chaudhari | nilesh.chaudhari@code.code      |
 |     4     | Karan Verma      | karan.verma@code.code           |
-|     5     | Ritu Deshmukh    | ritu.deshmukh@code.code         |
+|     5     | Sweety Deshmukh    | sweety.deshmukh@code.code         |
 
 
 ==> login_history
