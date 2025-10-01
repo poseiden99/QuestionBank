@@ -10,7 +10,7 @@
 | 31       | mohit      | 21                | Tech Lead        |
 | 32       | Ritesh     | 22                | Tech Lead        |
 | 41       | Vaibhav    | 31                | Senior Engineer  |
-| 42       | Ayesha     | 32                | Senior Engineer  |
+| 42       | kiran      | 32                 | Senior Engineer  |
 | 43       | Nilesh     | 32                | Senior Engineer  |
 | 51       | Heena      | 44                | Junior Engineer  |
 | 52       | suresh     | 43                | Junior Engineer  |
@@ -22,6 +22,6 @@
 | emp_id   | emp_name   | direction  | hierarchy_tree                         |
 |:--------:|:----------:|:----------:|:---------------------------------------:
 | 32       | Ritesh     | direct     | Aarti ==> Ritesh                       |
-| 42       | Ayesha     | indirect   | Aarti ==> Ritesh ==> Ayesha            |
+| 42       | kiran      | indirect    | Aarti ==> Ritesh ==> kiran            |
 | 43       | Nilesh     | indirect   | Aarti ==> Ritesh ==> Nilesh            |
-| 52       | Kiran      | indirect   | Aarti ==> Ritesh ==> Nilesh ==> suresh  |
+| 52       | suresh      | indirect   | Aarti ==> Ritesh ==> Nilesh ==> suresh  |

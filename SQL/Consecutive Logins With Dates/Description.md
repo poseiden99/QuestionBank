@@ -5,10 +5,11 @@
 
 | user_id   |       name       |       email                     |
 |:---------:|:----------------:|:-------------------------------:|
-|     1     | Namrata Deokate  | Namrata.sharma@code.code          |
+|     1     | Namrata Deokate  | Namrata.Deokate@code.code       |
 |     2     | Nilesh Chaudhari | nilesh.chaudhari@code.code      |
+|     3     | Meena Joshi      | meena.joshi@code.code           |
 |     4     | Karan Verma      | karan.verma@code.code           |
-|     5     | Sweety Deshmukh    | sweety.deshmukh@code.code         |
+|     5     | Sweety Deshmukh  | sweety.deshmukh@code.code       |
 
 
 ==> login_history
@@ -41,7 +42,7 @@
 
 | user_id   | name             |         email              | login_date  | logout_date |
 |:---------:|:----------------:|:--------------------------:|:-----------:|:-----------:|
-|     1     | Aarti Sharma     | aarti.sharma@code.code     |  2025-08-10 |  2025-08-12 |
+|     1     | Namrata Deokate  | Namrata.Deokate@code.code  |  2025-08-10 |  2025-08-12 |
 |     2     | Nilesh Chaudhari | nilesh.chaudhari@code.code |  2025-08-09 |  2025-08-11 |
 |     3     | Meena Joshi      | meena.joshi@code.code      |  2025-08-08 |  2025-08-11 |
 |     3     | Meena Joshi      | meena.joshi@code.code      |  2025-08-15 |  2025-08-17 |

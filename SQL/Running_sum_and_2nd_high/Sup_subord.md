@@ -1,3 +1,16 @@
+### Get me running sum based on timestamp for each sensor id
+### give me second highest value for each sensorid
+
+|sensorid| timestamp|values|
++--------+----------+------+
+|    1111|2021-01-15|    10|
+|    1111|2021-01-16|    15|
+|    1111|2021-01-17|    30|
+|    1112|2021-01-15|    10|
+|    1112|2021-01-15|    20|
+|    1112|2021-01-15|    30|
++--------+----------+------+
+
 ### NUMBERS
 
 NUMBERS
